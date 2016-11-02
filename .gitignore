@@ -31,3 +31,4 @@ config.js
 
 _PROJECT
 npm-debug.log
+dist
