@@ -17,11 +17,9 @@ require('../sass/app.scss');
 const Root = (props) => {
     return (
 		<Provider store={ props.store }>
-			<div>
-				<Router history={ props.history }>
-				{ props.routes() }
-				</Router>
-			</div>
+			<Router history={ props.history }>
+			{ props.routes() }
+			</Router>
 		</Provider>
     );
 }
